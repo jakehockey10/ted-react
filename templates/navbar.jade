@@ -1,0 +1,35 @@
+nav.navbar.navbar-default.navbar-fixed-top
+    .container-fluid
+        .navbar-header
+            button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            a.navbar-brand(href='#') TED
+                //img(src='images/TED_logo.png', alt='Brand')
+        .collapse.navbar-collapse#bs-example-navbar-collapse-1
+            ul.nav.navbar-nav
+                li.talks
+                    a.category Talks
+                        span.sr-only (current)
+                li.playlists
+                    a.category Playlists
+            form.navbar-form.navbar-right#search_form(role='search')
+                .form-group
+                    .input-group
+                        input.form-control#search_input(type='text', placeholder='Search')
+                        .input-group-btn
+                            button.btn.btn-default#search_button(type='button') Talks
+                            button.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-expanded='true')
+                                span.caret
+                                span.sr-only Toggle Dropdown
+                            ul.dropdown-menu.dropdown-menu-right(role='menu')
+                                li#talks
+                                    a(href='#') Talks
+                                li#playlists
+                                    a(href='#') Playlists
+                                li#quotes
+                                    a(href='#') Quotes
+                                li#blog_posts
+                                    a(href='#') Blog Posts

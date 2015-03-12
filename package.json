@@ -1,0 +1,5 @@
+{
+  "name": "ted-react",
+  "description": "This application uses react as a front-end to access my ted-api-wrapper application to make queries against the TED API",
+  "author": "Jacob Smith"
+}
