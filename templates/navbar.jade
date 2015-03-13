@@ -10,11 +10,10 @@ nav.navbar.navbar-default.navbar-fixed-top
                 //img(src='images/TED_logo.png', alt='Brand')
         .collapse.navbar-collapse#bs-example-navbar-collapse-1
             ul.nav.navbar-nav
-                li.talks
-                    a.category Talks
-                        span.sr-only (current)
-                li.playlists
-                    a.category Playlists
+                li
+                    a#nav_talks.category Talks
+                li
+                    a#nav_playlists.category Playlists
             form.navbar-form.navbar-right#search_form(role='search')
                 .form-group
                     .input-group
